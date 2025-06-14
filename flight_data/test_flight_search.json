@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "url": "https://www.united.com/api/flight/GetTeaserTexts?cartId=620C4D28-8C99-4086-9F0E-F5FD61E21990",
+    "timestamp": "2025-06-14T03:03:47.229Z",
+    "status": 200,
+    "size": 5408,
+    "headers": {
+      "cache-control": "max-age=0, no-cache, no-store",
+      "connection": "keep-alive",
+      "content-encoding": "br",
+      "content-length": "926",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Sat, 14 Jun 2025 03:03:47 GMT",
+      "expires": "Sat, 14 Jun 2025 03:03:47 GMT",
+      "pragma": "no-cache",
+      "server": "envoy",
+      "server-timing": "cdn-cache; desc=MISS\nedge; dur=24\norigin; dur=531\nak_p; desc=\"1749870226564_389452576_2949417251_56338_15187_22_0_-\";dur=1",
+      "set-cookie": "akavpau_ualwww=1749870827~id=001b5012c61e02f1378c1ba7e5ce84c2; Path=/; HttpOnly; Secure; SameSite=None\nbm_sv=6EF923F8C02EBEBAE07BF97F36F4F9D0~YAAQIJM2F7NEq0WXAQAAvq5kbBxD3yN5WR7L5B80zNYsqqrM6medNUcPqbCdy+z8fFC7H8vpTIVM7LNQuSWRqu1tf/T7RhmS1R+ZnD6SSTQ42zknYg8Fve06WohZmL01mUJgUA9mUbQDwqjkcRXRInLXpQdLUu3WwPTBrNshebqzYk40hgqjLLk2LGcS9gzUcKXdAMU69xlkvubQxhHsT8ji01AxoWt7kL75ybxShEjSVjuWOB56LYp/5yHX15bM~1; Domain=.united.com; Path=/; Expires=Sat, 14 Jun 2025 05:03:37 GMT; Max-Age=7190; Secure",
+      "strict-transport-security": "max-age=15768000; includeSubDomains; preload",
+      "x-akamai-edgescape": "georegion=274,country_code=US,region_code=NY,city=NEWYORK,dma=501,pmsa=5600,msa=5602,areacode=212,county=NEWYORK,fips=36061,lat=40.7500,long=-73.9967,timezone=EST,zip=10001-10014+10016-10041+10043-10045+10055+10060+10065+10069+10075+10080-10081+10087+10090+10095+10101-10126+10128-10133+10138+10150-10179+10185+10199-10200+10203+10211-10213+10242+10249+10256-10261+10265+10268-10282+10285-10286+10292,continent=NA,throughput=vhigh,bw=5000,network=tmobile,asnum=21928",
+      "x-frame-options": "SAMEORIGIN",
+      "requestid": "6adb2c8b-c7d3-4410-ab1c-e3071f6ed43d",
+      "x-envoy-upstream-service-time": "495"
+    }
+  },
+  "flightData": {
+    "Data": {
+      "ColumnInformation": {
+        "Columns": [
+          {
+            "DataSourceLabel": "Economy ",
+            "Description": "",
+            "Type": "ECONOMY",
+            "SubType": "Revenue",
+            "FareContentDescription": "<p>Our standard Economy fare:</p><ul class=\"fare-details-list\"><li>Seat selection at booking, if available</li><li>Enjoy other options for customizing your travel</li></ul>",
+            "MarketingText": "<span class=bundles-content>Book with our <br>Low Fare Guarantee</span>Find the lowest United fare online at united.com.<br><a target=_blank href=\"http://www.united.com/CMS/en-US/products/travelproducts/Pages/Lowfareguarantee.aspx\">Learn more</a>",
+            "DataSourceLabelStyle": "ECONOMY",
+            "FareFamilies": [
+              "ECONOMY",
+              "MIN-ECONOMY-SURP-OR-DISP"
+            ],
+            "Value": "0-3",
+            "FareFamily": "ECONOMY",
+            "DescriptionId": "3",
+            "MatrixId": 481,
+            "TeaserTexts": [
+              {
+                "Text": "Choose your seat",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "IsPrimary": true,
+                "SortIndex": 1,
+                "Type": "SEAT"
+              },
+              {
+                "Text": "Upgrades available",
+                "Icon": "price",
+                "LangCode": "en-US",
+                "SortIndex": 2,
+                "Type": "UPGRADE"
+              },
+              {
+                "Text": "No change fees",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 3,
+                "Type": "CHANGEFEE"
+              },
+              {
+                "Text": "Checked bag fees",
+                "Icon": "price",
+                "LangCode": "en-US",
+                "SortIndex": 4,
+                "Type": "CHECKEDBAG"
+              },
+              {
+                "Text": "1 carry-on bag included",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 5,
+                "Type": "CARRYONBAG"
+              }
+            ],
+            "SortIndex": 10
+          },
+          {
+            "DataSourceLabel": "Economy ",
+            "Description": "(fully refundable)",
+            "Type": "ECONOMY-UNRESTRICTED",
+            "SubType": "Revenue",
+            "FareContentDescription": "<p>Our unrestricted Economy fare:</p><ul class=\"fare-details-list\"><li>Fully refundable fare; no cancellation or change fees</li><li>Seat selection at booking, if available</li><li>Enjoy other options for customizing your travel</li></ul>",
+            "MarketingText": "<span class=bundles-content>Book with our <br>Low Fare Guarantee</span>Find the lowest United fare online at united.com.<br><a target=_blank href=\"http://www.united.com/CMS/en-US/products/travelproducts/Pages/Lowfareguarantee.aspx\">Learn more</a>",
+            "DataSourceLabelStyle": "ECONOMY",
+            "FareFamilies": [
+              "ECONOMY-UNRESTRICTED"
+            ],
+            "Value": "0-9",
+            "FareFamily": "ECONOMY-UNRESTRICTED",
+            "IsFullyRefundable": true,
+            "DescriptionId": "9",
+            "MatrixId": 481,
+            "TeaserTexts": [
+              {
+                "Text": "Choose your seat",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "IsPrimary": true,
+                "SortIndex": 1,
+                "Type": "SEAT"
+              },
+              {
+                "Text": "Upgrades available",
+                "Icon": "price",
+                "LangCode": "en-US",
+                "SortIndex": 2,
+                "Type": "UPGRADE"
+              },
+              {
+                "Text": "No change fees",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 3,
+                "Type": "CHANGEFEE"
+              },
+              {
+                "Text": "Checked bag fees",
+                "Icon": "price",
+                "LangCode": "en-US",
+                "SortIndex": 4,
+                "Type": "CHECKEDBAG"
+              },
+              {
+                "Text": "1 carry-on bag included",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 5,
+                "Type": "CARRYONBAG"
+              }
+            ],
+            "SortIndex": 16
+          },
+          {
+            "DataSourceLabel": "First ",
+            "Description": "(2-cabin)",
+            "Type": "FIRST",
+            "SubType": "Revenue",
+            "FareContentDescription": "<p>Our lowest fare in First:</p><ul class=\"fare-details-list\"><li>Personalized inflight service</li><li>More spacious seating and extra legroom</li><li>Expanded dining experience</li></ul>",
+            "MarketingText": "<span class=bundles-content>Book with our <br>Low Fare Guarantee</span>Find the lowest United fare online at united.com.<br><a target=_blank href=\"http://www.united.com/CMS/en-US/products/travelproducts/Pages/Lowfareguarantee.aspx\">Learn more</a>",
+            "DataSourceLabelStyle": "FIRST",
+            "FareFamilies": [
+              "MIN-BUSINESS-OR-FIRST",
+              "FIRST",
+              "BUSINESS"
+            ],
+            "Value": "0-79",
+            "FareFamily": "FIRST",
+            "DescriptionId": "79",
+            "MatrixId": 481,
+            "TeaserTexts": [
+              {
+                "Text": "Extra-spacious seat",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "IsPrimary": true,
+                "SortIndex": 1,
+                "Type": "SEAT"
+              },
+              {
+                "Text": "NOTAPPLICABLE",
+                "Icon": "",
+                "LangCode": "en-US",
+                "SortIndex": 2,
+                "Type": "UPGRADE"
+              },
+              {
+                "Text": "No change fees",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 3,
+                "Type": "CHANGEFEE"
+              },
+              {
+                "Text": "2 checked bags included",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 4,
+                "Type": "CHECKEDBAG"
+              },
+              {
+                "Text": "1 carry-on bag included",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 5,
+                "Type": "CARRYONBAG"
+              }
+            ],
+            "SortIndex": 77
+          },
+          {
+            "DataSourceLabel": "First ",
+            "Description": "(2-cabin, fully refundable)",
+            "Type": "FIRST-UNRESTRICTED",
+            "SubType": "Revenue",
+            "FareContentDescription": "<p>Our unrestricted First fare:</p><ul class=\"fare-details-list\"><li>Fully refundable fare; no cancellation or change fees.</li><li>Personalized inflight service</li><li>More spacious seating and extra legroom</li><li>Expanded dining experience</li></ul>",
+            "MarketingText": "<span class=bundles-content>Book with our <br>Low Fare Guarantee</span>Find the lowest United fare online at united.com.<br><a target=_blank href=\"http://www.united.com/CMS/en-US/products/travelproducts/Pages/Lowfareguarantee.aspx\">Learn more</a>",
+            "DataSourceLabelStyle": "FIRST",
+            "FareFamilies": [
+              "MIN-BUSINESS-OR-FIRST-UNRESTRICTED",
+              "BUSINESS-UNRESTRICTED",
+              "FIRST-UNRESTRICTED"
+            ],
+            "Value": "0-81",
+            "FareFamily": "FIRST-UNRESTRICTED",
+            "IsFullyRefundable": true,
+            "DescriptionId": "81",
+            "MatrixId": 481,
+            "TeaserTexts": [
+              {
+                "Text": "Extra-spacious seat",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "IsPrimary": true,
+                "SortIndex": 1,
+                "Type": "SEAT"
+              },
+              {
+                "Text": "NOTAPPLICABLE",
+                "Icon": "",
+                "LangCode": "en-US",
+                "SortIndex": 2,
+                "Type": "UPGRADE"
+              },
+              {
+                "Text": "No change fees",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 3,
+                "Type": "CHANGEFEE"
+              },
+              {
+                "Text": "2 checked bags included",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 4,
+                "Type": "CHECKEDBAG"
+              },
+              {
+                "Text": "1 carry-on bag included",
+                "Icon": "checkmark",
+                "LangCode": "en-US",
+                "SortIndex": 5,
+                "Type": "CARRYONBAG"
+              }
+            ],
+            "SortIndex": 79
+          }
+        ]
+      },
+      "Status": 1
+    }
+  }
+}

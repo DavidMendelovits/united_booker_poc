@@ -652,6 +652,7 @@ class UnitedFlightSearcher {
         "--disable-blink-features=AutomationControlled",
         "--disable-http2",
         "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        `--proxy-server=${proxies[Math.floor(Math.random() * proxies.length)]}`,
       ],
     });
 
@@ -1046,7 +1047,7 @@ module.exports = {
   UnitedFlightSearcher,
   testWithURL,
   extractParamsFromURL,
-  displayResults,
+  displayResults
 };
 
 // Run test if called directly
