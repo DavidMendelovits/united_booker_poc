@@ -4,7 +4,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-core");
 
 class UnitedFlightSearcher {
   constructor(options = {}) {
@@ -30,6 +30,7 @@ class UnitedFlightSearcher {
 
     const browser = await puppeteer.launch({
       headless: this.headless,
+      executablePath: process.env.CHROME_BIN || '/usr/bin/google-chrome',
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -646,6 +647,7 @@ class UnitedFlightSearcher {
 
     const browser = await puppeteer.launch({
       headless: this.headless,
+      executablePath: process.env.CHROME_BIN || '/usr/bin/google-chrome',
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
