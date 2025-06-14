@@ -4,4 +4,4 @@ const proxies = [
     'https://proxy-1-dfordavey.replit.app/',
 ]
 
-export default proxies;
+module.exports = proxies;

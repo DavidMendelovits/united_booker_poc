@@ -6,6 +6,9 @@ const fs = require("fs");
 const path = require("path");
 const puppeteer = require("puppeteer-core");
 
+// Add proper export at the end of the file
+module.exports = { UnitedFlightSearcher };
+
 class UnitedFlightSearcher {
   constructor(options = {}) {
     this.headless = options.headless !== false;

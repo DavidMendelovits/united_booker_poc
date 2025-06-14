@@ -1,6 +1,6 @@
 run = "npm run dev"
 hidden = [".build", ".config"]
-modules = ["nodejs-20", "bash", "nix"]
+modules = ["bash", "nix", "nodejs-20"]
 
 [nix]
 channel = "stable-24_05"
@@ -26,3 +26,15 @@ start = "typescript-language-server --stdio"
 [deployment]
 run = ["sh", "-c", "npm start"]
 deploymentTarget = "gce"
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 5378351
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node index.js"

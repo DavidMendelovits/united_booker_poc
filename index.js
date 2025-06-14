@@ -1,10 +1,21 @@
-const UnitedFlightSearcher = require('./united-flight-searcher');
+const { UnitedFlightSearcher } = require('./united');
 
-const searcher = new UnitedFlightSearcher({ headless: false });
-const results = await searcher.searchFlights({
-    from: 'PHL',
-    to: 'NYC', 
-    departDate: '08/15/2025',
-    passengers: 1
-});
-console.log(results);
+async function main() {
+    const searcher = new UnitedFlightSearcher({ headless: false });
+    
+    // You'll need to use searchByURL method with a proper United URL
+    // Use the urlBuilder to create the URL first
+    const { UnitedURLBuilder } = require('./urlBuilder');
+    const urlBuilder = new UnitedURLBuilder();
+    
+    const searchURL = urlBuilder.buildOneWayURL('PHL', 'LGA', '08/15/2025', {
+        passengers: 1
+    });
+    
+    console.log('Search URL:', searchURL);
+    
+    const results = await searcher.searchByURL(searchURL);
+    console.log(results);
+}
+
+main().catch(console.error);
